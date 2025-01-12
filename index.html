@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Song Recommendations</title>
+   
+</head>
+<body>
+
+    <h1>Song Recommendations</h1>
+    <section id="video" class="section bg-light">
+        <div class="container">
+            <h3>The movie and TV collection you always wished for. Granted.</h3>
+            <p class="lead">With over 100,000 movies and TV shows to choose from, there’s always something great to watch
+                on myTunes and if you
+                watch on Orange TV 4K, you’ll be able to enjoy a tremendous selection of your favorite content in 4K HDR.
+                So get
+                ready to enjoy episodes of your favorite TV shows or hit movies you’ve been waiting to see — anytime,
+                anywhere. Just
+                tap to play, or even download if you’re going somewhere you won’t have Wi-Fi.</p>
+            <a href="https://deepai.org/chat/songs" class="btn btn-secondary">WATCH NOW</a>
+            <img src="img/mockup2.png" alt="">
+        </div>
+    </section>
+
+   
+    <label for="genre-select">Select a Genre:</label>
+    <select id="genre-select">
+        <option value="">Select a genre</option>
+        <option value="pop">Pop</option>
+        <option value="rock">Rock</option>
+        <option value="jazz">Jazz</option>
+        <option value="electronic">Electronic</option>
+         <option value="hiphop">Hip Hop</option>
+    </select>
+
+    <div id="recommendations">
+        <h2>Recommendations:</h2>
+        <ul id="recommendation-list"></ul>
+    </div>
+
+  
+    <script src="js/script.js"></script>
+</body>
+</html>
